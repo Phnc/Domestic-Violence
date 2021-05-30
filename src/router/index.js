@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Intro from '../components/intro/Introduction'
-import Analysis from '../components/Analysis/Analysis'
+import Analysis from '../components/analysis/Analysis'
 
 Vue.use(Router)
 
