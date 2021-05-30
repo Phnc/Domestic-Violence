@@ -47,14 +47,28 @@
       </p>
 
       <p>
-        Injúria: é atribuir palavras ou qualidades ofensivas a alguém,
-        expor defeitos ou opinião que desqualifique a pessoa, atingindo sua
-        honra e moral.  <br> Art. 140 –
-        Injuriar alguém, ofendendo-lhe a dignidade ou o decoro: <br> Pena – detenção,
-        de um a seis meses, ou multa.
+        Injúria: é atribuir palavras ou qualidades ofensivas a alguém, expor
+        defeitos ou opinião que desqualifique a pessoa, atingindo sua honra e
+        moral. <br />
+        Art. 140 – Injuriar alguém, ofendendo-lhe a dignidade ou o decoro:
+        <br />
+        Pena – detenção, de um a seis meses, ou multa.
       </p>
-      <br>
+      <br />
       <h3>Como os casos se distribuem através da idade das vítimas?</h3>
+      <parent-pie />
+      <h3>Grupos com mais casos ao longo dos anos</h3>
+      <p>
+        Após analisarmos o gráfico acima, percebemos 2 grupos em destaque. O de
+        mulheres entre 35 e 64 anos, que é o maior e o de mulheres entre 18 e 24
+        anos. Se se somarmos estas duas caregorias temos mais do que a metade de
+        todos os casos.
+      </p>
+      <p>
+        Além disso, outros dois grandes grupoa são os de 25-29 e 30-34. Mas,
+        ainda assim se considerarmos os dois, não chegamos à quantidade de casos
+        no grupo entre 35-64.
+      </p>
     </div>
   </div>
 </template>
@@ -62,12 +76,14 @@
 <script>
 import Parent from "../barChart/Parent";
 import ParentHorizontal from "../horizontalBarChart/ParentHorizontal";
+import ParentPie from "../pieChart/ParentPie";
 
 export default {
   name: "Analisis",
   components: {
     parent: Parent,
     horizontalParent: ParentHorizontal,
+    parentPie: ParentPie,
   },
 };
 </script>

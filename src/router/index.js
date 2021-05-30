@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Intro from '../components/intro/Introduction'
 import Analysis from '../components/analysis/Analysis'
+import Conclusion from '../components/conclusion/Conclusion'
 
 Vue.use(Router)
 
@@ -25,5 +26,9 @@ export default new Router({
       path: "/analysis",
       component: Analysis
     },
+    {
+      path: "/conclusion",
+      component: Conclusion
+    }
   ]
 })
