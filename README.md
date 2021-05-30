@@ -1,8 +1,16 @@
 # domestic-violence
 
-> A Vue.js project
+> A project made to present some analysis over available data about domestic violence in the state of Pernambuco - Brazil.
 
-## Build Setup
+## Finished project
+> https://domestic-violence-pe.netlify.app/#/intro
+
+## API
+I needed to create an API to provide the data for this project. It's code is available on GitHub in the following repository: https://github.com/Phnc/Domestic-Violence-Pernambuco
+
+Make sure you'll go check it out :) 
+
+## Setup
 
 ``` bash
 # install dependencies
@@ -10,12 +18,4 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
