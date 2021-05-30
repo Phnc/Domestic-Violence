@@ -53,6 +53,8 @@
         Injuriar alguém, ofendendo-lhe a dignidade ou o decoro: <br> Pena – detenção,
         de um a seis meses, ou multa.
       </p>
+      <br>
+      <h3>Como os casos se distribuem através da idade das vítimas?</h3>
     </div>
   </div>
 </template>
